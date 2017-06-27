@@ -1,43 +1,72 @@
-h2 {
-  height: 30px;
-  width: 120px;
-  background: red;
-  color: white;
+.task2 {
+    width: 330px;
+    background: #FFFFFF;
+}
+.task2 h2 {
+    height: 30px;
+    width: 120px;
+    background: #FF0000;
+    color: #FFFFFF;
 }
 
 .blue {
-  height: 40px;
-  width: 300px;
-  background: blue;
+    height: 50px;
+    width: 300px;
+    background: #4600FF;
+    color: #000000;
 }
 
 .yellow {
-  height: 40px;
-  width: 300px;
-  background: yellow;
+    height: 40px;
+    width: 300px;
+    background: #FDF800;
 }
 
 .one {
-  height: 40px;
-  width: 50px;
-  background: red;
+    height: 40px;
+    width: 50px;
+    background: #FF0000;
 }
 
 .two {
-  height: 40px;
-  width: 100px;
-  background: orange;
+    height: 40px;
+    width: 100px;
+    background: #FFA300;
 }
 
 .three {
-  height: 40px;
-  width: 150px;
-  background: blue;
+    height: 40px;
+    width: 150px;
+    background: #4600FF;
 }
 
-.joy {
-  height: 100px;
-  width: 300px;
-  background: orange;
-  font-size: 40px;
+.task4 p {
+    height: 80px;
+    width: 250px;
+    padding: 20px;
+    background: #FF733A;
+    font-size: 50px;
+}
+
+.task5 {
+    box-sizing: border-box;
+    height: 200px;
+    width: 480px;
+    padding: 10px;
+    background: #D6D7BE;
+}
+
+.task5 h1 {
+    margin-top: 0;
+    color: #532601;
+    font-family: arial, sans-serif;
+}
+.task5 h2 {
+    color: #000000;
+}
+.task5 h3 {
+    color: #875327;
+}
+.task5 a {
+    color: #485A0D;
 }

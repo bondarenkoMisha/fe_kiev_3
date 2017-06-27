@@ -1,0 +1,43 @@
+h2 {
+  height: 30px;
+  width: 120px;
+  background: red;
+  color: white;
+}
+
+.blue {
+  height: 40px;
+  width: 300px;
+  background: blue;
+}
+
+.yellow {
+  height: 40px;
+  width: 300px;
+  background: yellow;
+}
+
+.one {
+  height: 40px;
+  width: 50px;
+  background: red;
+}
+
+.two {
+  height: 40px;
+  width: 100px;
+  background: orange;
+}
+
+.three {
+  height: 40px;
+  width: 150px;
+  background: blue;
+}
+
+.joy {
+  height: 100px;
+  width: 300px;
+  background: orange;
+  font-size: 40px;
+}

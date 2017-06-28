@@ -61,12 +61,20 @@
     color: #532601;
     font-family: arial, sans-serif;
 }
+
 .task5 h2 {
     color: #000000;
 }
+
 .task5 h3 {
     color: #875327;
 }
+
 .task5 a {
     color: #485A0D;
+}
+
+.equation {
+    width: content;
+    border: solid 2px #000000;
 }

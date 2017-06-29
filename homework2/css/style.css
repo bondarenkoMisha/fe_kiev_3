@@ -42,10 +42,10 @@
 
 .task4 p {
     height: 80px;
-    width: 250px;
+    width: 260px;
     padding: 20px;
     background: #FF733A;
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .task5 {
@@ -74,7 +74,52 @@
     color: #485A0D;
 }
 
-.equation {
-    width: content;
-    border: solid 2px #000000;
+.task6 {
+    margin: 10px 0;
+    width: 430px;
+    border: solid 3px #000000;
+}
+
+.task6 p {
+    margin: 5px 5px 15px 5px;
+    font: 16px "Times New Roman";
+}
+
+.task6 .equation {
+    font-size: 18px;
+}
+
+.task6 sup,
+.task6 sub {
+    font-style: italic;
+}
+
+.task7 {
+    margin: 10px 0;
+    height: 110px;
+    width: 430px;
+    border: solid 3px #000000;
+}
+
+.task7 p {
+    margin: 5px 5px 15px 5px;
+    font: 16px "Times New Roman";
+}
+
+.task7 span {
+    font-style: italic;
+}
+
+.task7 .polynominal {
+    font: italic 26px "Times New Roman";
+}
+
+.task7 sub {
+    color: #0033ff;
+    font: normal 16px "Times New Roman";
+}
+
+.task7 sup {
+    color: #ff0000;
+    font: normal 16px "Times New Roman";
 }

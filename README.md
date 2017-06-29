@@ -1,2 +1,1 @@
-# homeworks
-Repository for homeworks.
+# homework1

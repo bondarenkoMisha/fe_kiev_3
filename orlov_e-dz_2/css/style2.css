@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box1 {
+    background: #D2691E;
+    color: black;
+    width: 500px;
+    height: 130px;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.box2 {
+    background: #D3D3D3;
+    color: #8B4513;
+    width: 475px;
+    height: 200px;
+    padding: 10px 15px;
+}
+
+.box3 {
+    margin-top: -190px;
+    margin-left: 15px;
+    color: black;
+    padding-top: 45px;
+}
+
+.box4 {
+    color: #8B4513;
+    margin-left: 15px;
+    padding-top: -55px;
+}
+
+.box5 {
+    margin-left: 15px;
+    color: black;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+body {
+    background: red;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 45px;
+    text-decoration-style: underline;
+}

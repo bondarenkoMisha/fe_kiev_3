@@ -1,0 +1,23 @@
+a {
+    color: black;
+    font-size: 35px;
+    text-decoration-style: underline;
+}
+
+.box1 {
+    background: red;
+    width: 70px;
+    height: 55px;
+}
+
+.box2 {
+    background: #FF8C00;
+    width: 145px;
+    height: 55px;
+}
+
+.box3 {
+    background: blue;
+    width: 230px;
+    height: 55px;
+}

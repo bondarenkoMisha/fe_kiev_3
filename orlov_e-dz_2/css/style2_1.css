@@ -1,0 +1,9 @@
+body {
+    background: blue;
+}
+
+a {
+    color: white;
+    font-size: 35px;
+    text-decoration-style: underline;
+}

@@ -2,48 +2,25 @@ body {
     background: white;
 }
 
-.box2,
-.box4,
-.box5,
-.box6 {
-    width: 200px;
-    height: 200px;
-}
-
 .box1 {
-    background-color: #791c16;
-    height: 600px;
+    background-color: #850000;
+    height: 200px;
     width: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .box2 {
+    width: 200px;
+    height: 200px;
     background-color: white;
-    margin-left: 200px;
-    margin-top: -600px;
+    text-align: center;
 }
 
 .box3 {
-    margin-top: -180px;
-    padding-left: 210px;
-}
-
-.box4 {
-    background-color: white;
-    text-align: center;
-}
-
-.box5 {
-    background-color: white;
-    margin-left: 400px;
-    margin-top: -200px;
-}
-
-.box6 {
-    background-color: white;
-    margin-left: 200px;
-    text-align: center;
-}
-
-.box7 {
-    margin-top: 3px;
+    background-color: #850000;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
 }

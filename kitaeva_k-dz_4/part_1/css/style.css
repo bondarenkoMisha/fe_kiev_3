@@ -1,0 +1,75 @@
+.wrapper{
+    width: 100%;
+}
+.b-page{
+    width: 400px;
+    height: 550px;
+    margin: 100px auto;
+    border: solid #000;
+}
+.b-page_head-line {
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+.b-page_img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.b-page_phone{
+    height: 285px;
+    width: 250px;
+    margin-top: 25px;
+   
+}
+.b-page_marker{
+    display: inline-block;
+    background-color: #8bc144;
+    width: 190px;
+    height: 30px;
+    margin-top: 5px;
+    box-shadow: -3px 3px 1px 1px rgba(156,156,156,1);
+}
+.b-page--text{
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    margin: 0 38px;
+    
+}
+.b-page_price {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    font-size: 31px;
+    
+}
+.b-page_price--size{
+    margin: 20px 0 0;
+}
+.b-page_btn {
+    margin: 20px auto;
+    border: none;
+    width: 230px;
+    height: 50px;
+   
+}
+.b-page_btn--name {
+    margin: auto;
+    border: none;
+    width: 230px;
+    height: 50px;
+    border-radius: 0;
+    text-shadow: 0 1px 1px #666666;
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    background: #ff0000;
+    text-decoration: none;
+    box-shadow: 0 3px 1px 1px rgba(133,0,0,1);
+    cursor: pointer;
+}
+}

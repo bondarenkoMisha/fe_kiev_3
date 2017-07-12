@@ -1,0 +1,26 @@
+.equation {
+	width:300px;
+	border: 3px dashed black;
+	
+}
+
+.text {
+	margin-top:10px;
+	margin-left:5px; 
+	font-size: 18px;
+}
+
+.formula {
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+sup {
+	color:red;
+	font-size: 10px;
+}
+
+sub {
+	color:blue;
+	font-size: 10px;
+}

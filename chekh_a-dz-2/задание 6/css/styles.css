@@ -1,0 +1,13 @@
+.equation {
+	width:470px;
+	border: 3px dashed black;
+}
+
+.text{
+	margin-top:5px;
+}
+
+p {
+	margin-left: 3px;
+	font-size: 18px;
+}

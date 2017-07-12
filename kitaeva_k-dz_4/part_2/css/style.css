@@ -1,0 +1,29 @@
+.wrapper{
+    width: 100%;
+}
+.box {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_red {
+    width: 200px;
+    height: 200px;
+    background-color: #850000;
+   display: flex;
+}
+.box_white {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_img {
+    height: auto;
+    width: auto;;
+ 
+}

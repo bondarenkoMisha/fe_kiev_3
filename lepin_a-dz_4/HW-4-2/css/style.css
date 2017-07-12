@@ -1,50 +1,51 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    height: 600px;
-    width: 600px;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-flow: row wrap;
 }
 
 .cell-red {
-    height: 200px;
-    width: 200px;
-    background-color: #791c16;
+  width: 200px;
+  height: 200px;
+  background-color: #791c16;
 }
 
 .cell-white {
-    height: 200px;
-    width: 200px;
-    background-color: #fff;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
 }
 
 .bishop {
-    padding: 10px;
+  padding: 10px;
 }
 
 .bishop img {
-    height: 100%;
-    width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .knight {
-    padding: 10px 13px;
+  padding: 10px 13px;
 }
 
 .knight img {
-    height: 100%;
-    width: 103.5%;
+  width: 103.5%;
+  height: 100%;
 }
 
 .rook {
-    padding: 9px 11px;
+  padding: 9px 11px;
 }
+
 .rook img {
-    height: 99%;
-    width: 101%;
+  width: 101%;
+  height: 99%;
 }
 
 /*img {

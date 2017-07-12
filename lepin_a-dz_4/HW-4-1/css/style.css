@@ -44,14 +44,14 @@
 
 .item-button-buy {
     margin: 21px 23px 0 0;
-    padding: 0 0 0 12px;
+    padding: 0 0 1px 13px;
     height: 46px;
     width: 229px;
     border: 0;
     box-shadow: 0 4px 0 #791c16;
     background: #e93f33;
     color: #fff;
-    font: 700 27px/26px "TahomaRegular";
+    font: 400 28px/26px "TahomaRegular";
     letter-spacing: 1px;
     text-shadow: -1px 1px 0 #000;
 }

@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 380px;
+  height: 530px;
+  margin: 10px;
+  color: #000;
+  text-align: center;
+  background: #fff;
+  border: solid 2px #5a5a5a;
+}
+
+.item-name {
+  padding: 0 0 0 1px;
+  margin: 10px 0 0 0;
+  font: 400 22px/26px "TahomaRegular";
+  letter-spacing: 1px;
+}
+
+.item-img {
+  margin: 23px 0 0 1px;
+}
+
+.item-option {
+  width: 190px;
+  height: 31px;
+  padding: 1px 5px 0 0;
+  margin: 0;
+  font: 400 22px/26px "TahomaRegular";
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #9aba48;
+  box-shadow: -3px 3px 0 #9c9c9c;
+}
+
+.item-price {
+  padding: 0 0 0 21px;
+  margin: 20px 0 0 0;
+  font: 400 31px/26px "TahomaRegular";
+  letter-spacing: 1px;
+}
+
+.item-button-buy {
+  width: 229px;
+  height: 46px;
+  padding: 0 0 1px 13px;
+  margin: 21px 23px 0 0;
+  font: 400 28px/26px "TahomaRegular";
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: -1px 1px 0 #000000;
+  background: #e93f33;
+  border: 0;
+  box-shadow: 0 4px 0 #791c16;
+}

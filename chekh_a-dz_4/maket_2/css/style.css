@@ -1,0 +1,35 @@
+body {	
+	margin: 0;
+	padding: 0;
+	
+}
+
+.wrapper {
+	padding: 0;
+	margin: 0;
+	height:600px;
+	width:600px;
+}
+
+.chess {
+  	border-collapse: collapse;
+  	margin: 0px;
+	width: 100%;
+}
+
+.chess td {
+	height: 200px;
+	padding: 0;
+	width:200px;
+}
+
+.figure img {
+	display: block;
+	margin: 0 auto;
+	height: 180px;
+	width:180px;
+}
+
+.color {
+	background: #850000;
+}

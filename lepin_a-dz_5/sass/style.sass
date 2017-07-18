@@ -1,0 +1,44 @@
+*
+    box-sizing: border-box
+
+=border-padding
+    border: solid 2px #000
+    padding: 10px
+
+.fullwrap
+    +border-padding
+    width: 720px
+    margin: 10px auto 10px auto
+    background: #fff
+
+
+header
+    +border-padding
+    height: 120px
+
+.wrap
+    margin-top: 10px
+    +border-padding
+    main
+        +border-padding
+        float: left
+        height: 600px
+        width: 60%
+
+    aside
+        +border-padding
+        float: right
+        height: 600px
+        width: 35%
+
+.wrap::after
+    content: '.'
+    height: 0
+    visibility: hidden
+    clear: both
+    display: block
+
+footer
+    margin-top: 10px
+    +border-padding
+    height: 120px

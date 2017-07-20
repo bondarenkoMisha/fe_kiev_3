@@ -34,11 +34,11 @@
 
 main {
   padding: 40px 35px 0 35px; }
-  main section {
+  main .text-wrap {
     padding: 0 15px 0 15px; }
-  main h1 {
+  main .center {
     text-align: center;
-    padding-bottom: 10px; }
+    line-height: 0; }
   main p {
     margin-bottom: 26px; }
   main span {

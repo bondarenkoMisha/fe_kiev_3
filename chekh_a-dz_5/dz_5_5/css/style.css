@@ -1,0 +1,166 @@
+.container {
+	background: #D1D1D1;
+	font-family: Tahoma;
+	width: 670px;
+	padding: 55px 45px 0 45px;
+	margin: 0 auto;
+}
+.header {
+	width:640px;
+	margin: 0 auto -3px;
+}
+
+.header img{
+	width: 640px;
+	height: 150px;
+}
+
+.wrap {
+	background: #FFFFFF;
+	font-size: 16px;
+	color: #4D4E3B;
+	margin: 0 auto;
+	width: 640px;
+}
+
+.info {
+	padding: 55px 50px 13px 50px;
+}
+
+.info p {
+	line-height: 1.4;
+	padding-right: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.info p:nth-child(1) {
+	text-align: center;
+	text-indent: 20px;
+	margin-bottom: 11px;
+}
+.info p:nth-child(2) {
+	margin-bottom: 26px;
+}
+.info p:nth-child(3) {
+	margin-bottom: 34px;
+}
+.info p:nth-child(4) {
+	margin-bottom: 24px;
+}
+
+.main {
+	padding: 0px 50px 20px 50px;
+}
+
+.box-1 {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 50px 20px 50px;
+}
+
+.box-1 img {
+	height:214px;
+	width:255px;
+}
+
+.advert-1 p{
+	margin-top: 11px;
+	line-height: 1.47;
+}
+
+.button-1 {
+	background: #E93F33;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 40px;
+	margin-top: 39px;
+	text-align: center;
+	height: 40px;
+	width: 255px;
+}
+
+.button a {
+	display:block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.box-2 {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 50px 20px 50px;
+}
+
+.box-2 img {
+	height:214px;
+	width:160px;
+}
+
+.advert-2 p{
+	margin-top: 11px;
+	line-height: 1.47;
+	padding-right: 5px;
+	width:155px;
+}
+
+.button-2 {
+	background: #E93F33;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 40px;
+	margin-top: 18px;
+	text-align: center;
+	height: 40px;
+	width: 160px;
+}
+
+.note {
+	padding: 12px 50px 31px 50px;
+}
+
+.note-text {
+	line-height: 1.4;
+}
+
+.button-3 {
+	background: #E93F33;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 56px;
+	text-align: center;
+	height: 40px;
+	width: 540px;
+}
+
+.note-text p:first-child {
+	padding-bottom: 10px;
+}
+.footer {
+	margin: 30px auto;
+	
+}
+
+.footer p{
+	font-size: 11px;
+	padding: 12px 50px 32px 50px;
+	text-align: center;
+	color: #fff;
+	line-height: 1.9;
+}
+
+.footer a {
+	color:#fff;
+	font-weight: bold;
+}

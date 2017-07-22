@@ -1,0 +1,23 @@
+.main {
+    width: 600px;
+    height: 600px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.black {
+    width: 200px;
+    height: 200px;
+    background-color: #850000;
+}
+.white {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+img {
+    height: 200px;
+    width: 200px;
+}

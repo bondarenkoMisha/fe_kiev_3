@@ -1,0 +1,64 @@
+@import 'reset';
+@import 'fonts';
+
+@mixin p-style ($color) {
+    color: $color;
+    font: 16px/18px 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+@mixin background ($background-color, $background-color-active, $background-color-hover) {
+    background-color: $background-color;
+        &:active {
+            background-color: $background-color-active;
+            color: #333;
+        }
+        &:hover {
+            background-color: $background-color-hover;
+            color: #333;
+        }
+}
+
+@mixin border-radius ($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.contant-wrap {
+    margin: 20px auto;
+    width: 75%;
+    height: 100%;
+}
+
+.p1 {
+    @include p-style (#fff);
+    @include background (green, red, yellow);
+    }
+
+.p2 {
+    @include p-style (#fff);
+    @include background (purple, gold, brown);
+}
+
+.input-name {
+    border: 1px solid #e7e2eb;
+    color: #333;
+    font: 20px/30px 'Roboto', sans-serif;
+    @include border-radius (5px);
+    &:focus {
+        border: 2px solid green;
+        }
+}
+
+.text {
+    @include p-style (#333);
+    &:nth-child(2n+1) {
+        background-color: #e5e5e5;
+    }
+    &first-letter {
+        color: red;
+        font: 2em 'Georgia',
+    }
+}

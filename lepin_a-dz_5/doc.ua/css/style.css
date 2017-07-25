@@ -21,25 +21,24 @@
 
 .fullwrap {
   width: 760px;
-  height: 1690px;
-  padding: 60px 60px 0 60px;
+  padding: 60px 60px 60px 60px;
   margin: 0 auto 0 auto;
   background: #d1d1d1;
 }
 
 .content {
-  width: 640px;
   padding-bottom: 30px;
   font: 16px/24px arial, sans-serif;
   background: #fff;
 }
 
 .logo {
+  display: block;
   width: 100%;
 }
 
 main {
-  padding: 40px 35px 0 35px;
+  padding: 28px 35px 0 35px;
 }
 
 main .text-wrap {
@@ -47,7 +46,7 @@ main .text-wrap {
 }
 
 main .center {
-  line-height: 0;
+  margin-bottom: 13px;
   text-align: center;
 }
 
@@ -61,10 +60,6 @@ main span {
 
 main a {
   color: #64a3df;
-}
-
-main .float-wrap {
-  width: 120%;
 }
 
 main .float-wrap::after {
@@ -95,6 +90,7 @@ main .service-card {
 }
 
 main .service-card img {
+  display: block;
   width: 100%;
   margin-bottom: 8px;
 }

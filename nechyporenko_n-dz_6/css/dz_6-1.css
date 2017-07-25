@@ -84,7 +84,8 @@ table {
   -moz-border-radius: 5px;
   border-radius: 5px; }
   .input-name:focus {
-    border: 2px solid green; }
+    border: 2px solid green;
+    outline: none; }
 
 .text {
   color: #333;
@@ -93,8 +94,31 @@ table {
   padding: 20px; }
   .text:nth-child(2n+1) {
     background-color: #e5e5e5; }
-  .textfirst-letter {
+  .text:first-letter {
     color: red;
-    font: 2em "Georgia"; }
+    font: 2em 'Georgia', serif; }
+
+p:after {
+  content: '*'; }
+p::before {
+  content: "\2602";
+  display: block;
+  font-size: 2em;
+  line-height: 1;
+  width: 30px;
+  float: left; }
+
+.figure {
+  width: 75px;
+  height: 35px;
+  background-color: #723de0; }
+  .figure::before {
+    display: block;
+    color: #723de0;
+    content: "\25C0";
+    height: 35px;
+    width: 13px;
+    line-height: 35px;
+    background-color: #fff; }
 
 /*# sourceMappingURL=dz_6-1.css.map */

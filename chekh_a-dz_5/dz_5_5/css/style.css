@@ -51,10 +51,6 @@
 	margin-bottom: 24px;
 }
 
-.main {
-	padding: 0px 50px 20px 50px;
-}
-
 .box-1 {
 	display:flex;
 	flex-direction: row;

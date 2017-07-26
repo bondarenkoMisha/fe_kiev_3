@@ -1,0 +1,39 @@
+*
+    box-sizing: border-box
+
+=position($wd, $zi, $tp, $lf)
+    width: $wd
+    z-index: $zi
+    top: $tp
+    left: $lf
+
+.wrapper
+    background-color: #777
+    height: 100vh
+    width: 100vw
+    display: table-cell
+    vertical-align: middle
+
+.content
+    overflow: hidden
+    position: relative
+    background-color: #82cbc4
+    width: 560px
+    height: 447px
+    margin: auto
+    img
+        display: block
+        position: absolute
+    .world
+        +position(101.9%, 1, 94px, -6px)
+    .water
+        +position(102%, 3, 392px, -6px)
+    .wooden
+        +position(20.6%, 2, 287px, 14px)
+    .clouds
+        +position(62.6%, 4, -7.8px, 214px)
+    .filler
+        +position(100%, 5, 433px, 0)
+        position: absolute
+        height: 15px
+        background-color: #176c7f

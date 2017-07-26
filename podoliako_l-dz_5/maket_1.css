@@ -1,0 +1,38 @@
+.fullwrap {
+    background-color: #E1F5F2;
+    border: 1px solid black;
+    margin: 30px 400px;
+}
+.header {
+    background-color: #390050;
+    height: 80px;
+    margin: 30px;
+    border: 1px solid black;
+}
+.wrap {
+    background-color: #6BC5D2;
+    margin: 30px;
+    border: 1px solid black;
+    height: 362px;
+    padding: 20px;
+}
+.main {
+    float: left;
+    height: 360px;
+    width: 60%;
+    background-color: #5A5D9D;
+    border: 1px solid black;
+}
+.sidebar {
+    float: right;
+    height: 360px;
+    width: 35%;
+    background-color: #5A5D9D;
+    border: 1px solid black;
+}
+.footer {
+    height: 100px;
+    background-color: #390050;
+    border: 1px solid black;
+    margin: 30px;
+}

@@ -1,0 +1,21 @@
+table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 150px 10px 10px;
+    background-color: #fcfcfc;
+
+}
+th {
+    border-bottom: 1px solid grey;
+}
+div {
+    margin: 30px auto;
+    background-color: #fcfcfc;
+    width: 692px;
+    height: 200px;
+    padding: 0px 5px;
+}

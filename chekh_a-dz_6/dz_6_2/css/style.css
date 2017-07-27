@@ -1,0 +1,243 @@
+.wrapper {
+	font-family: Tahoma, 'PT Sans', Arial;
+	font-size: 16px;
+	margin:5px auto;
+	width: 600px;
+}
+
+.tab {
+	border: 2px solid #000;
+	margin:10px auto;
+}
+
+.tab th {
+	border: 2px solid #000;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tab td {
+	border: 2px solid #000;
+	padding: 8px 10px;
+}
+
+.tab td:not(:first-child) {
+	text-align: center;
+}
+
+.tab .first-column {
+	width:110px;
+}
+
+.tab-2 {
+	background: #FCFCFC;
+	border-collapse: separate;
+	margin: 10px auto;
+	padding: 0 5px 0 20px;
+}
+
+.tab-2 th {
+	border-bottom: 1px solid #E3E3E3;
+	color:#4A4542;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 110px 15px 5px;
+	text-align: left;
+}
+
+.tab-2 td {
+	color:#595856;
+	font-size: 14px;
+	padding: 15px 110px 15px 5px;
+	vertical-align: middle;
+}
+
+.tab-3 {
+	background: #FCFCFC;
+	border-collapse: separate;
+	margin: 10px auto;
+	padding: 0 5px 15px 20px;
+}
+
+.tab-3 th {
+	border-bottom: 1px solid #E3E3E3;
+	color:#4A4542;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 110px 15px 5px;
+	text-align: left;
+}
+
+.tab-3 td {
+	border-bottom: 1px solid #E3E3E3;
+	color:#595856;
+	font-size: 14px;
+	padding: 15px 110px 15px 5px;
+	vertical-align: middle;
+}
+
+.task-4 {
+	position:relative;
+}
+
+.tab-4 {
+	background: #F9F9F9;
+	border:2px solid #BCBCBC;
+	border-collapse: separate;
+	border-radius: 7px;
+	box-shadow: 0 0 4px 1px #BFBFBF;
+	font-size: 12px;
+	padding: 10px 10px 5px 10px;
+	margin: 10px auto;
+}
+
+.tab-4 th {
+	border-bottom: 1px solid #EAEAEA;
+	font-weight: bold;
+	padding: 15px 5px 15px 10px;
+	text-align: left;
+}
+
+.tab-4 td {
+	border-bottom: 1px solid #EAEAEA;
+	padding: 8px 5px 8px 10px;
+	vertical-align: top;
+}
+
+.tab-4 .border {
+	border-bottom: none;
+} 
+
+.tab-4 .coll-1 {
+	text-align:left;
+	vertical-align: top;
+	width: 120px;
+}
+
+.tab-4 .quantity {
+	width: 50px;
+}
+
+.tab-4 .price {
+	width: 50px;
+} 
+
+.tab-4 .discount {
+	width: 50px;
+}
+
+.tab-4 .all {
+	width:70px;
+}
+
+.tab-4 td:first-child {
+	color: #E7232D;
+}
+
+.tab-4 td:nth-child(5) {
+	padding-right: 0;
+}
+
+.tab-4 td:nth-child(6) {
+	padding-left: 3px;
+	padding-right: 0;
+}
+
+.tab-4 td:nth-child(7) {
+	padding-left: 3px;
+	padding-right: 30px;
+	padding-top: 9px;
+} 
+
+.tab-4 td .plus {
+	background: #E7232D;
+	border-radius:2px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	width: 30px;
+}
+
+.tab-4 td .minus {
+	background: #E7232D;
+	border-radius:2px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	width: 30px;
+}
+
+.tab-4 td .del {
+	background: #E7232D;
+	border-radius:2px;
+	color: #fff;
+	font-size: 8px;
+	font-weight: bold;
+	height:27px;
+	line-height: 28px;
+	text-align: center;
+	width:55px;
+}
+
+.tab-4 .btn a {
+	color: #fff;
+	display:block;
+	text-decoration: none;
+}
+
+.tab-4 .total {
+	font-size: 13px;
+	padding-right: 25px;
+	padding-top: 15px;
+	text-align: right;
+}
+
+.tab-4 .total span {
+	font-weight: bold;
+}
+
+.tab-4 .subtotal {
+	opacity: 0.5;
+	padding-right: 25px;
+	padding-top: 0;
+	text-align: right;
+}
+
+.tab-4 .bin {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;  
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 17px;
+	padding-left: 55px;
+}
+
+.tab-4 .bin a {
+	color: #E7232D;
+	text-decoration: none;	
+}
+
+.close {
+	border-radius: 50%;
+	background: black;
+	box-shadow: 0 0 1px 2px #BFBFBF, inset 0 0 1px 2px #fff;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 22px;
+	height: 25px;
+	position:absolute;
+	text-align: center;
+	top:-11px;
+	right:-12px;
+	width:25px;
+}

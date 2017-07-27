@@ -1,0 +1,123 @@
+.wrapper {
+	font-family: Tahoma;
+	font-size: 16px;
+}
+
+.task {
+	margin: 20px 20px;
+}
+
+.tab {
+	border: 2px solid #000;
+	margin:0 auto;
+}
+
+.tab th {
+	border: 2px solid #222;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.tab td {
+	border: 2px solid #222;
+	padding: 8px;
+	padding-right: 50px;
+}
+
+.tab td:first-child {
+	padding-right: 130px;
+}
+
+.tab td:nth-child(3) {
+	padding-right: 80px;
+}
+
+.green {
+	background: #00FFAA;
+}
+
+.purple {
+	background: #8a2be2;
+}
+
+.red:active {
+	background: #FF0000;
+}
+
+.gold:active {
+	background: #FFBB00;
+}
+
+.yellow:hover {
+	background: #FFFF00;
+}
+
+.brown:hover {
+	background: #A35324;
+}
+
+.field {
+	display:block;
+	margin: 30px auto;
+	padding: 5px;
+}
+
+input.field:focus {
+	border:2px solid green;
+	box-shadow: none;
+	padding: 5px;
+}
+
+.task-3, .task-6 {
+	border-bottom: 2px solid black;
+	margin:0 auto;
+	width: 150px;
+}
+
+.task-3 p {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.task-3 p:nth-child(2n) {
+	background: #505050;
+}
+
+.task-4 p:first-letter {
+	font-family: Georgia;
+	font-size: 2em;
+	color: red;
+}
+
+.task-5 p:after {
+	content: '*';
+}
+
+.task-6 p {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.task-6 p::before {
+	content: '\2602';
+}
+
+.figure {
+	background: #000;
+	height: 50px;
+	position: relative;
+	margin: 10px auto;
+	width: 100px;
+}
+
+.figure:before {
+	border-bottom: 8px solid transparent;
+	border-right: 16px solid #000;
+	border-top: 8px solid transparent;
+	bottom: 17px;
+	left: -15px;
+	content:'';
+	position: absolute;
+	height: 0px;
+	width: 0px;
+}

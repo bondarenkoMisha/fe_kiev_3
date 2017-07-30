@@ -1,6 +1,13 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
 .fullwrap {
   width: 700px;
-  margin: auto; }
+  margin: auto;
+  font-family: sans-serif; }
+  .fullwrap p {
+    padding: 10px; }
 
 .pseudo1 {
   background: #0ab61b;
@@ -36,8 +43,29 @@
 
 .task4 {
   margin-top: 10px; }
+  .task4 p::before {
+    float: left;
+    content: "☂";
+    font-size: 34px; }
   .task4 p::first-letter {
     color: #d20303;
     font: 2em Georgia; }
+  .task4 p::after {
+    content: "*"; }
+
+.task7 {
+  margin-top: 10px; }
+  .task7 .rectangle {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background: #000;
+    width: 50px;
+    height: 30px; }
+  .task7 .rectangle::before {
+    position: absolute;
+    top: 6px;
+    left: -12px;
+    content: "◀"; }
 
 /*# sourceMappingURL=style.css.map */

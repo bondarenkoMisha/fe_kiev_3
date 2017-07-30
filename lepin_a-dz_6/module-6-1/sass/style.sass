@@ -1,9 +1,16 @@
 =mtop
     margin-top: 10px
 
+*
+    box-sizing: border-box
+
+
 .fullwrap
     width: 700px
     margin: auto
+    font-family: sans-serif
+    p
+        padding: 10px
 
 //task 1
 .pseudo1
@@ -37,6 +44,27 @@
 
 .task4
     +mtop
+    p::before
+        float: left
+        content: '\2602'
+        font-size: 34px
     p::first-letter
         color: #d20303
         font: 2em Georgia
+    p::after
+        content: '*'
+
+.task7
+    +mtop
+    .rectangle
+        position: relative
+        margin-left: 30px
+        margin-bottom: 30px
+        background: #000
+        width: 50px
+        height: 30px
+    .rectangle::before
+        position: absolute
+        top: 6px
+        left: -12px
+        content: '\25c0'

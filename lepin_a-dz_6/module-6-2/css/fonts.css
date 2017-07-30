@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'open-sans';
+  src: url("../fonts/OpenSansSemiBold.woff2") format("woff2"), url("../fonts/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'open-sans';
+  src: url("../fonts/OpenSansBold.woff2") format("woff2"), url("../fonts/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'open-sans';
+  src: url("../fonts/OpenSansBoldItalic.woff2") format("woff2"), url("../fonts/OpenSansBoldItalic.woff") format("woff"), url("../fonts/OpenSansBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: 'open-sans';
+  src: url("../fonts/OpenSansExtraBold.woff2") format("woff2"), url("../fonts/OpenSansExtraBold.woff") format("woff"), url("../fonts/OpenSansExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

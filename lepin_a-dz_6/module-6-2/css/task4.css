@@ -1,0 +1,16 @@
+.wrapper {
+  width: 500px;
+  margin: 20px auto auto; }
+
+.task4 {
+  width: 100%;
+  font: 600 11px 'open-sans';
+  color: #333; }
+  .task4 th {
+    font-weight: 700; }
+  .task4 td, .task4 th {
+    border-bottom: solid 2px #ddd;
+    text-align: left;
+    padding: 10px 5px; }
+
+/*# sourceMappingURL=task4.css.map */

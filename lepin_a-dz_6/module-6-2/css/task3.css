@@ -1,16 +1,16 @@
 .wrapper {
-  width: 500px;
-  margin: 20px auto auto; }
+  margin: 20px auto auto;
+  width: 600px; }
 
 .task3 {
-  width: 100%;
+  color: #333;
   font: 600 11px 'open-sans';
-  color: #333; }
+  width: 100%; }
   .task3 th {
     font-weight: 700; }
   .task3 td, .task3 th {
     border-bottom: solid 2px #ddd;
-    text-align: left;
-    padding: 10px 5px; }
+    padding: 10px 5px;
+    text-align: left; }
 
 /*# sourceMappingURL=task3.css.map */

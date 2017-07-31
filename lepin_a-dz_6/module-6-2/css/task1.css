@@ -7,9 +7,9 @@
   width: 100%; }
   .task1 th {
     font: 800 12px 'open-sans'; }
-  .task1 tr,
+  .task1 td,
   .task1 th,
-  .task1 td {
+  .task1 tr {
     border: solid 1px;
     padding: 5px;
     text-align: center;

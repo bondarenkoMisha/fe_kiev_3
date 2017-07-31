@@ -3,9 +3,9 @@
   box-sizing: border-box; }
 
 .fullwrap {
-  width: 700px;
+  font-family: sans-serif;
   margin: auto;
-  font-family: sans-serif; }
+  width: 700px; }
   .fullwrap p {
     padding: 10px; }
 
@@ -30,8 +30,8 @@
   background: #e4c74b; }
 
 .input-txt {
-  width: 100%;
-  margin-top: 10px; }
+  margin-top: 10px;
+  width: 100%; }
 
 .input-txt:focus {
   border: solid 2px #33b30c; }
@@ -44,8 +44,8 @@
 .task4 {
   margin-top: 10px; }
   .task4 p::before {
-    float: left;
     content: "☂";
+    float: left;
     font-size: 34px; }
   .task4 p::first-letter {
     color: #d20303;
@@ -56,16 +56,16 @@
 .task7 {
   margin-top: 10px; }
   .task7 .rectangle {
-    position: relative;
-    margin-left: 30px;
-    margin-bottom: 30px;
     background: #000;
-    width: 50px;
-    height: 30px; }
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    position: relative;
+    width: 50px; }
   .task7 .rectangle::before {
-    position: absolute;
-    top: 6px;
+    content: "◀";
     left: -12px;
-    content: "◀"; }
+    position: absolute;
+    top: 6px; }
 
 /*# sourceMappingURL=style.css.map */

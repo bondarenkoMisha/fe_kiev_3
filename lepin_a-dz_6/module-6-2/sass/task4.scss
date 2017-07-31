@@ -34,24 +34,28 @@ $os: 'open-sans', sans-serif;
     top: -14px;
     vertical-align: middle;
     width: 28px;
-
 }
+
 .modal-goods {
     color: #555;
     font: 600 11px $os;
     width: 100%;
+
     th {
         @extend td;
         font-weight: 800;
     }
+
     td {
         border-bottom: solid 2px #eee;
         padding: 10px 5px;
         text-align: left;
     }
+
     tbody td:first-of-type {
         color: #d72f2f;
     }
+
     button {
         background: #d72f2f;
         border: 0;
@@ -61,6 +65,7 @@ $os: 'open-sans', sans-serif;
         vertical-align: middle;
         width: 30px;
     }
+
     button:last-child {
         font: 700 12px $os;
         width: 65px;
@@ -74,11 +79,11 @@ $os: 'open-sans', sans-serif;
     margin-top: 30px;
     padding-right: 8px;
     text-align: right;
+
     span {
         color: #555;
         font-weight: 800;
     }
-
 }
 
 .shopping-cart {

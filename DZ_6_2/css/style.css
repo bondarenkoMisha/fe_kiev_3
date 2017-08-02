@@ -1,14 +1,35 @@
 .table1 {
-	border-spacing: 0px;
+	
+	width: 700px;
+	border-collapse: collapse;
+	
 
 }
 
+.name1 {
+	text-align: left;
+}
 
-td {
+.table1 tr th {
+	border-collapse: collapse;
+	border: 1px solid grey;
+	
+}
+
+.table1 tr td {
+	border-collapse: collapse;
+	border: 1px solid grey;
+
+	
+	
+}
+
+.rez {
 	text-align: center;
 }
 .table2 {
 	text-align: left;
+	width: 700px;
 
 	border-spacing: 0 0;
 }
@@ -25,6 +46,7 @@ td {
 
 
 .table3 {
+	width: 700px;
 	text-align: left;
 
 	border-spacing: 0 0;
@@ -48,6 +70,7 @@ td {
 	border-bottom: 1px solid grey;
 	height: 40px;
 	min-width: 100px;
+	text-align: center;
 
 
 }
@@ -129,8 +152,15 @@ td .del:hover {
 
 .name {
 	color: red;
+	width: 100%;
 }
 
+.price {
+	text-align: center;
+}
+.Quantity {
+	text-align: center;
+}
 .summa {
 	margin-left: 460px;
 	

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+.fullwrap {
+  font-family: sans-serif;
+  margin: auto;
+  width: 700px; }
+  .fullwrap p {
+    padding: 10px; }
+
+.pseudo1 {
+  background: #0ab61b;
+  margin-top: 10px; }
+
+.pseudo1:hover {
+  background: #f7ff5b; }
+
+.pseudo1:active {
+  background: #c6333b; }
+
+.pseudo2 {
+  margin-top: 10px;
+  background: #7b2db8; }
+
+.pseudo2:hover {
+  background: #694c35; }
+
+.pseudo2:active {
+  background: #e4c74b; }
+
+.input-txt {
+  margin-top: 10px;
+  width: 100%; }
+
+.input-txt:focus {
+  border: solid 2px #33b30c; }
+
+.task3 {
+  margin-top: 10px; }
+  .task3 p:nth-child(2n) {
+    background: #d9d9d9; }
+
+.task4 {
+  margin-top: 10px; }
+  .task4 p::before {
+    content: "☂";
+    float: left;
+    font-size: 34px; }
+  .task4 p::first-letter {
+    color: #d20303;
+    font: 2em Georgia; }
+  .task4 p::after {
+    content: "*"; }
+
+.task7 {
+  margin-top: 10px; }
+  .task7 .rectangle {
+    background: #000;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    position: relative;
+    width: 50px; }
+  .task7 .rectangle::before {
+    content: "◀";
+    left: -12px;
+    position: absolute;
+    top: 6px; }
+
+/*# sourceMappingURL=style.css.map */

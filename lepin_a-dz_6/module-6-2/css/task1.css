@@ -1,0 +1,20 @@
+.wrapper {
+  margin: 20px auto auto;
+  width: 500px; }
+
+.task1 {
+  font: 600 14px 'open-sans';
+  width: 100%; }
+  .task1 th {
+    font: 800 12px 'open-sans'; }
+  .task1 td,
+  .task1 th,
+  .task1 tr {
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle; }
+  .task1 tbody td:first-child {
+    text-align: left; }
+
+/*# sourceMappingURL=task1.css.map */

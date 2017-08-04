@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  margin: 20px auto auto;
+  width: 690px; }
+
+.modal {
+  border-radius: 5px;
+  box-shadow: 0 0 20px #010101;
+  height: 100%;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%; }
+
+.modal-close {
+  background-color: #000;
+  border: solid 2px #fff;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #010101;
+  color: #fff;
+  display: block;
+  font: 700 18px "open-sans", sans-serif;
+  height: 28px;
+  position: absolute;
+  right: -14px;
+  text-align: center;
+  text-decoration: none;
+  top: -14px;
+  vertical-align: middle;
+  width: 28px; }
+
+.modal-goods {
+  color: #555;
+  font: 600 11px "open-sans", sans-serif;
+  width: 100%; }
+  .modal-goods th {
+    font-weight: 800; }
+  .modal-goods td, .modal-goods th {
+    border-bottom: solid 2px #eee;
+    padding: 10px 5px;
+    text-align: left; }
+  .modal-goods tbody td:first-of-type, .modal-goods tbody th:first-of-type {
+    color: #d72f2f; }
+  .modal-goods button {
+    background: #d72f2f;
+    border: 0;
+    color: #fff;
+    font: 800 20px "open-sans", sans-serif;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px; }
+  .modal-goods button:last-child {
+    font: 700 12px "open-sans", sans-serif;
+    width: 65px; }
+
+.total {
+  border-right: solid 4px #eee;
+  color: #aaa;
+  font: 700 14px "open-sans", sans-serif;
+  margin-top: 30px;
+  padding-right: 8px;
+  text-align: right; }
+  .total span {
+    color: #555;
+    font-weight: 800; }
+
+.shopping-cart {
+  color: #d72f2f;
+  display: block;
+  font: 700 italic 16px "open-sans", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center; }
+
+/*# sourceMappingURL=task4.css.map */

@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 20px auto auto;
+    width: 600px;
+}
+
+.task3 {
+    color: #333;
+    font: 600 11px 'open-sans';
+    width: 100%;
+
+    th {
+        @extend td;
+        font-weight: 700;
+    }
+
+    td {
+        border-bottom: solid 2px #ddd;
+        padding: 10px 5px;
+        text-align: left;
+    }
+}

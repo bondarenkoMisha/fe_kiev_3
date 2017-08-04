@@ -1,0 +1,26 @@
+.wrapper {
+    margin: 20px auto auto;
+    width: 500px;
+}
+
+.task1 {
+    font: 600 14px 'open-sans';
+    width: 100%;
+
+    th {
+        font: 800 12px 'open-sans';
+    }
+
+    td,
+    th,
+    tr {
+        border: solid 1px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    tbody td:first-child {
+        text-align: left;
+    }
+}

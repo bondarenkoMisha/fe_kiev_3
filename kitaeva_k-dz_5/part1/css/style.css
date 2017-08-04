@@ -1,31 +1,22 @@
 .wrapper{
-    width: 760px;
-    height: 1750px;
+    width: 640px;
     background: #d1d1d1;
     margin:  0 auto;
-    font-family: Arial, sans-serif;
+    padding: 50px 50px 30px 50px;
+    font-family: Tahoma, sans-serif;
    position: relative;
-}
-.free{
-    height: 50px;
-}
-.inner-wrapper{
- 
-    width: 640px;
-    margin: 0 auto;
-    background: #fff;
-    
-    
 }
 .header{
     width:100%;
+    height: 150px;
 }
 .header_img{
     width: 100%;
     height: 150px;
 }
-.inner-wrapper1{
-    margin: 60px 50px 0 50px;
+.inner-wrapper{
+   padding: 50px 50px 40px 50px;
+    background: #ffffff;
 }
 .main{
     width: 100%;
@@ -55,6 +46,10 @@
     width: 100%;
     min-height: 250px;
     font-size: 14px;
+    overflow: hidden;
+}
+.page-img1::after{
+    clear: both;
 }
 .page-img1_img{
     width: 256px;
@@ -82,20 +77,22 @@
 .page-img1_line--forth{
     margin: 10px 0;
 }
-.clear {
-    clear: both;
-}
+
 .page-button1{
-    clear: both;
+   overflow: hidden;
     width: 100%;
     min-height: 50px;
 }
+.page-button1:after{
+    clear: both;
+}
 .page-button_red1 {
     float: left;
-    width: 250px;
-    height: 40px;
+    padding: 10px 80px 12px 80px;
     background: #cf5b4e;
     border: none;
+    text-align: center;
+    text-decoration: none;
     border-radius:5px 5px;
     margin: 20px 30px 20px 0;
     color: #fff;
@@ -103,10 +100,11 @@
 }
 .page-button_red2 {
     float: left;
-    width: 250px;
-    height: 40px;
-    background: #cf5b4e;
+    padding: 10px 80px 12px 80px;
     border: none;
+    text-align: center;
+    text-decoration: none;
+    background: #cf5b4e;
     border-radius: 5px 5px;
     margin: 20px 0;
     color: #fff;
@@ -115,6 +113,10 @@
 .page-img2{
     width: 100%;
     min-height: 250px;
+    overflow: hidden;
+}
+.page-img2:after{
+   clear: both;
 }
 .page-img2_img{
     width: 150px;
@@ -123,15 +125,21 @@
 .page-img2_first {
     float: left;
     margin: 0;
+    width: 150px;
+    white-space: nowrap;
+    font-size: 14px;
 }
 
 .page-img2_second {
     float: left;
-    margin: 0 0 0 35px;
+    margin: 0 0 0 45px;
+    font-size: 14px;
 }
 .page-img2_third {
     float: left;
-    margin: 0 0 0 35px;
+    margin: 0 0 0 45px;
+    width: 150px;
+    font-size: 14px;
 }
 .page-img2_line--first{
     margin:0;
@@ -141,55 +149,43 @@
 }
 
 .page-button2{
-    clear: both;
     width: 100%;
-    min-height: 50px;
+    overflow: hidden;
+}
+.page-button2:after{
+    clear: both;
 }
 .page-button_red3 {
     float: left;
-    width: 160px;
-    height: 40px;
-    background: #cf5b4e;
     border: none;
+    text-align: center;
+    text-decoration: none;
+    background: #cf5b4e;
     border-radius: 5px 5px;
     margin: 20px 0;
+    padding: 10px 40px 12px 40px;
     color: #fff;
     cursor: pointer;
 }
 .page-button_red4 {
     float: left;
-    width: 160px;
-    height: 40px;
     background: #cf5b4e;
     border: none;
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px 5px;
     margin: 20px 0 20px 25px;
+    padding: 10px 40px 12px 40px;
     color: #fff;
     cursor: pointer;
 }
-.page-button_red5 {
-    float: left;
-    width: 160px;
-    height: 40px;
+.page-button_red5{
     background: #cf5b4e;
     border: none;
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px 5px;
-    margin: 20px 0 20px 25px;
-    color: #fff;
-    cursor: pointer;
-}
-.page-butoon_but2{
-   
-    width: 100%;
-    min-height: 20px;
-}
-.page-button_red6{
-    width: 540px;
-    height: 40px;
-    background: #cf5b4e;
-    border: none;
-    border-radius: 5px 5px;
-    margin: 50px 0 30px 0;
+    padding: 10px 175px;
     color: #fff;
     cursor: pointer;
 }
@@ -202,11 +198,14 @@
 .lastbar_line--second{
     margin:0;
 }
+.lastbar_line--third{
+    margin: 40px 0 0;
+}
 .footer{
     text-align: center;
     color: #fff;
     font-size: 12px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .footer_ref{
     color: #fff;

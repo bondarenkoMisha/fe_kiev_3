@@ -27,7 +27,7 @@ body {
     background-attachment: fixed;
 }
 
-.wrapper {
+.fullwrap {
     width: 960px;
     margin: auto;
     border: 1px solid #000;
@@ -150,7 +150,7 @@ body {
     margin: 10px 0;
 }
 
-main::after {
+.wrapper::after {
     content: '.';
     display: block;
     height: 0;

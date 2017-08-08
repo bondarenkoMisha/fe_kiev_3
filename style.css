@@ -1,0 +1,178 @@
+@charset "utf-8";
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+
+
+.body-bg {
+    padding: 25px 0;
+	background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	background-attachment: fixed;
+	background-color: #FFF;
+	background-image: url(images/strip.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+
+}
+
+.wrapper {
+	width: 960px;
+	background-image:url(images/header-bg.png);
+	background-repeat:repeat-x;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px;
+	background-color: #FFFFFF;
+	margin: auto;
+	border: 1px solid #000000;
+	text-align: left;
+}
+
+/*HEADER */
+
+.body-bg header {
+	height:120px;
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+
+}
+
+.logo {
+    margin: 20px;
+    float: left;
+    height: 100px;
+    width: 300px;
+}
+
+.contacts {
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    float: right;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.contacts p {
+    width: 180px;
+    margin-top: 0;
+    padding-right: 20px;
+    float: left;
+}
+
+/*CONTENT*/
+
+.сontent {
+    width:680px;
+    padding: 0 20px;
+    float:right;
+}
+
+.content-caption {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 24px;
+}
+
+.picture-centered {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.mainContent .picture-link {
+    display: inline-block;
+    margin: auto;
+}
+
+.picture-bordered {
+    width: 300px;
+    border-radius:10px;
+    border:5px solid #00698c;
+}
+
+.picture-doublesized {
+    width: 600px;
+}
+
+/*SIDEBAR*/
+
+.sidebar-caption {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sidebar-white_space {
+    margin-top: 40px;
+}
+
+.sidebar a {
+    color:#000;
+    font-size:13px;
+    text-decoration:none;
+}
+.sidebar a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+
+.sidebar .link-red {
+    color: #f00;
+}
+
+.sidebar .link-red:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+
+.sidebar {
+	float: left;
+	width: 200px;
+	padding: 15px 10px 15px 20px;
+}
+.sidebar ul  {
+	margin: 0px;
+	padding-left: 20px;
+	line-height: 150%;
+}
+
+.sidebar ul li {
+margin:10px 0;
+}
+
+main::after {
+    content: '.';
+    display: block;
+    clear:both;
+    height:0;
+    overflow: hidden;
+}
+
+/*FOOTER*/
+
+footer {
+    padding-left: 20px;
+	background:#ddd;
+	height:90px;
+}
+footer p {
+	margin: 0;
+	padding: 10px 0;
+}

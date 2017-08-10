@@ -1,5 +1,4 @@
 .wrapper{
-    position:absolute;
     width: 100%;
 }
 .drinks{
@@ -47,6 +46,25 @@
     width: 50%;
     min-height: 150px;
 }
+.close{
+    position: absolute;
+    background: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    left: 830px;
+    bottom: 450px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
+}
+.cross{
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    top: -7px;
+    left: 3px;
+}
 .tablelist{
     position: relative;
     margin: 0 20px;
@@ -78,7 +96,6 @@ a.redsquare{
     color: #ffffff;
     border:none;
     cursor: pointer;
-    
 }
 a.redsquare_rec{
     text-align: center;
@@ -88,7 +105,6 @@ a.redsquare_rec{
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
- 
 }
 .tablelist_header{
     text-align: left;
@@ -135,12 +151,10 @@ p.calculate_grey{
     justify-content: flex-end;
     color: #c0c0c0;
     margin: 5px 20px 5px 0;
-    
 }
 .action{
     display: flex;
     justify-content: center;
-   
 }
 .action_button{
     color: #dc4e45;
@@ -151,6 +165,5 @@ p.calculate_grey{
     text-decoration: none;
 }
 .action i{
-   
     font-weight: 700;
 }

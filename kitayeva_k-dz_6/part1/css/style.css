@@ -1,6 +1,6 @@
 .wrapper{
     width: 100%;
-    position: absolute;
+   
 }
 .button-like{
     width: 100px;
@@ -50,7 +50,18 @@
 .paragraph_even:nth-child(even){
     background: #c0c0c0;
 }
-.paragraph_letter:first-letter {
+
+.paragraph_letter:before{
+    position: absolute;
+    content: "\002602";
+    left: 5px;
+    bottom: 4px;
+}
+p.paragraph_letter{
+    position: relative;
+    padding-left: 15px;
+}
+p.paragraph_letter:first-letter {
     color: #f21c26;
     font-size: 2em;
     font-family: Georgia, Arial, sans-serif;
@@ -82,7 +93,5 @@
     display: block;
     position: relative;
     left: -10px;
-    top: .8px;
-    vertical-align: middle;
-    z-index: 999;
+    top: 1px;
 }

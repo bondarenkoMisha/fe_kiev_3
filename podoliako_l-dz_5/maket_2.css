@@ -1,0 +1,94 @@
+.full {
+    /*border: 1px solid black;*/
+    width: 640px;
+    margin: 0 auto;
+}
+.doc {
+    width: 640px;
+    height: auto;
+    margin: 0 auto;
+}
+.text {
+    font-family: Tahoma;
+    margin-left: 50px;
+    margin-right: 75px;
+}
+.friends {
+    font-family: Tahoma;
+    text-align: center;
+}
+.big_pic {
+    width: 255px;
+    height: auto;
+}
+.line_f1 {
+    float: left;
+    margin-left: 50px;
+    width: 40%;
+}
+.line_f2 {
+    float: right;
+    margin-right: 50px;
+    width: 40%;
+}
+.sign {
+    font-family: Tahoma;
+}
+.clearfix:after {
+    content: ' ';
+    clear: both;
+    display: table;
+}
+.bottom {
+    background-color: #cf5b4e;
+    color: white;
+    height: 40px;
+    width: 255px;
+    font-family: Tahoma;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.small_pic {
+    width: 160px;
+    height: 210px;
+}
+.line_f3 {
+    margin-top: 30px;
+    float: left;
+    margin-left: 50px;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.small_bottom {
+    background-color: #cf5b4e;
+    color: white;
+    height: 40px;
+    width: 160px;
+    font-family: Tahoma;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.line_f4 {
+    margin: 30px auto;
+    width: 25%;
+}.line_f5 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.giant_bottom {
+    background-color: #cf5b4e;
+    color: white;
+    height: 40px;
+    width: 540px;
+    font-family: Tahoma;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}

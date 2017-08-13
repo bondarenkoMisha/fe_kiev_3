@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+* {
+  box-sizing: border-box; }
+
+.fullwrap {
+  padding: 1vw;
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  margin-bottom: 2vw;
+  padding: 2vw;
+  border: solid 2px #e7e7e7;
+  background-color: #eee;
+  font-size: 2.3rem;
+  font-weight: 500; }
+
+.menu {
+  width: 25%;
+  float: left;
+  font-size: 2rem;
+  font-weight: 300; }
+  .menu li {
+    display: block;
+    margin: 1vw 0;
+    padding: 1vw;
+    border-bottom: solid 2px #dfdfdf; }
+
+main {
+  line-height: 1.5; }
+
+.overview {
+  max-width: 50%;
+  padding: 1vw 3.5vw;
+  float: left; }
+  .overview h2 {
+    margin: 1.5vw 0;
+    font-size: 2.3rem;
+    font-weight: 400; }
+  .overview p {
+    font-size: 1.5rem;
+    font-weight: 300; }
+  .overview img {
+    width: 100%; }
+
+.info {
+  max-width: 25%;
+  padding: 1vw;
+  float: right;
+  border: solid 2px #a2e7ea;
+  background-color: #a5eaee; }
+  .info h3 {
+    margin: 1.5vw 0;
+    font-size: 2.3rem;
+    font-weight: 400; }
+  .info p {
+    font-size: 1.5rem;
+    font-weight: 300; }
+
+@media screen and (max-width: 960px) {
+  .menu {
+    margin: 1vw;
+    float: none; }
+    .menu ul {
+      width: 96vw; }
+
+  .overview {
+    max-width: 100vw;
+    padding: 1vw;
+    float: none; }
+
+  .info {
+    max-width: 100vw;
+    float: none; } }
+.clearfix::after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */

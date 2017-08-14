@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box; }
+
+.fullwrap {
+  font-family: 'Open Sans', sans-serif; }
+
+.header {
+  padding: 2vw;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #f99f07; }
+  .header h1 {
+    padding: 2vw 0;
+    font-size: 3.5rem; }
+  .header p {
+    padding: 2vw 0; }
+
+.content {
+  padding: 2vw;
+  width: 100vw; }
+  .content article {
+    line-height: 1.8;
+    padding: 1vw; }
+    .content article h2 {
+      font-size: 2rem; }
+
+@media screen and (min-width: 961px) {
+  article {
+    max-width: 32.3333%;
+    float: left; }
+    article img {
+      margin-top: 1vw;
+      width: 100%; } }
+@media screen and (max-width: 960px) {
+  article {
+    float: none;
+    max-width: 100%; }
+    article img {
+      padding-right: 1vw;
+      float: left;
+      width: 50%; } }
+.clearfix::after {
+  content: '.';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

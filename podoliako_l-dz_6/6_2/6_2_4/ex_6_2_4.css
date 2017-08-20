@@ -1,0 +1,69 @@
+
+div.main {
+    margin: 0px auto;
+    background-color: #fcfcfc;
+    /*width: 692px;
+    height: 200px;*/
+    padding: 5px;
+    font-family: Tahoma;
+    width: 620px;
+}
+table {
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+td, th {
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 15px 10px 10px;
+}
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+.more, .less {
+    background-color: #e7242a;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-stretch: sans-serif;
+    margin-right: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.delete {
+    background-color: #e7242a;
+    color: white;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-stretch: sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+.bottom_box {
+    display: flex;
+    flex-direction: wrap;
+}
+.name {
+    color: #e7242a;
+}
+p.out_sale {
+    font-size: 16px;
+    color: #a29999;
+    text-align: right;
+    margin-top: 5px;
+}
+p {
+    margin-bottom: 5px;
+}
+.box {
+    color: #e7242a;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}

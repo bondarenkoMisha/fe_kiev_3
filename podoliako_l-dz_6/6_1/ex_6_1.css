@@ -1,0 +1,61 @@
+.first {
+    background-color: green;
+}
+.first:hover {
+    background-color: yellow;
+}
+.first:active {
+    background-color: red;
+}
+.second {
+    background-color: purple;
+}
+.second:hover {
+    background-color: brown;
+}
+.second:active {
+    background-color: gold;
+}
+p {
+    margin: 30px;
+    font-family: Tahoma;
+}
+form {
+    margin: 30px;
+}
+input:focus {
+    border: 2px solid green;
+    color: red;
+}
+input[type="text"]:focus {
+outline: none;
+}
+div>p:nth-child(2n) {
+    background-color: grey;
+}
+.letter_f:first-letter {
+    font-size: 2em;
+    font-family: Georgia;
+    color: red;
+}
+p:after {
+    content: '*';
+}
+p:before {
+    content: '\2602';
+}
+.figure {
+    background-color: black;
+    margin: 30px 50px;
+    width: 50px;
+    height: 30px;
+    position: relative;
+}
+.figure::after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    border: 10px solid transparent;
+    	border-right: 10px solid black;
+}
